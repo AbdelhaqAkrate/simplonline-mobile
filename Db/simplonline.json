@@ -1,0 +1,28 @@
+[{
+        "id" : "1",
+        "name" : "Hamid klouche",
+        "email" : "abdelhaq@gmail.com",
+        "phone" : "0666666666",
+        "password" : "123",
+        "promo" : "Groupe1",
+        "image" : "https://bsa.web.unc.edu/wp-content/uploads/sites/14595/2019/10/kushal_student_profile.jpg"
+    },
+    {
+        "id" : "2",
+        "name" : "Ahmed Azer",
+        "email" : "ahmed@gmail.com",
+        "phone" : "0666666666",
+        "password" : "123",
+        "promo" : "Groupe1",
+        "image" : "https://www.ntu.ac.uk/__data/assets/image/0018/110709/aamir-khalique.jpg"
+    },
+    {
+        "id" : "3",
+        "name" : "Mohamed Azer",
+        "email" : "mohamed@gmail.com",
+        "phone" : "0666666666",
+        "password" : "123",
+        "promo" : "Groupe2",
+        "image" : "https://business.appstate.edu/sites/default/files/styles/asu_news_full/public/asu_news/student-profile-javon-nathaniel.jpg?itok=-KyYkUKf"
+    }
+    ]

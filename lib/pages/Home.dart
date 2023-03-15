@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:simplonline/pages/Apprenant_Screen.dart';
+import 'package:simplonline/pages/Briefs_Screen.dart';
+import 'package:simplonline/pages/Group_Screen.dart';
 import './Login.dart';
 import './Signup.dart';
 
@@ -11,9 +14,8 @@ class Home extends StatefulWidget {
 class _HomeState extends State<Home> {
   int myIndex = 0;
   final List<Widget> myPages = [
-    const Login(),
-    const SignUp(),
-    const SignUp(),
+    const Briefs(),
+    const Apprenants(),
   ];
   @override
   Widget build(BuildContext context) {
@@ -30,16 +32,12 @@ class _HomeState extends State<Home> {
           currentIndex: myIndex,
           items: const [
             BottomNavigationBarItem(
-              icon: const Icon(Icons.home),
-              label: 'Home',
+              icon: const Icon(Icons.assignment),
+              label: 'Briefs',
             ),
             BottomNavigationBarItem(
-              icon: const Icon(Icons.search),
-              label: 'Search',
-            ),
-            BottomNavigationBarItem(
-              icon: const Icon(Icons.person),
-              label: 'Profile',
+              icon: const Icon(Icons.group),
+              label: 'Apprenants',
             ),
           ]),
     );
